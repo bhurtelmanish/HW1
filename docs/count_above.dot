@@ -1,0 +1,14 @@
+digraph G {
+rankdir=TB; graph [bgcolor="white"]; node [shape=box, style="rounded,filled", fillcolor="#edf5ff", fontname="DejaVu Sans"]; edge [color="#49647c"];
+n0 [label="Receive grid, dimensions, threshold"];
+n1 [label="Initialize count to zero"];
+n0 -> n1;
+n2 [label="Loop over rows and columns"];
+n1 -> n2;
+n3 [label="Reading strictly above threshold?"];
+n2 -> n3;
+n4 [label="If yes, increment count"];
+n3 -> n4;
+n5 [label="Return count"];
+n4 -> n5;
+}

@@ -1,0 +1,20 @@
+digraph G {
+rankdir=TB; graph [bgcolor="white"]; node [shape=box, style="rounded,filled", fillcolor="#edf5ff", fontname="DejaVu Sans"]; edge [color="#49647c"];
+n0 [label="Initialize station and temperature arrays"];
+n1 [label="Print report"];
+n0 -> n1;
+n2 [label="Count and print readings above 95"];
+n1 -> n2;
+n3 [label="Prompt and read station name"];
+n2 -> n3;
+n4 [label="Look up station"];
+n3 -> n4;
+n5 [label="Found?"];
+n4 -> n5;
+n6 [label="If no, print not-found message"];
+n5 -> n6;
+n7 [label="If yes, compute and print station average"];
+n6 -> n7;
+n8 [label="Return 0"];
+n7 -> n8;
+}

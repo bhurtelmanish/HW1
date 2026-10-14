@@ -1,0 +1,14 @@
+digraph G {
+rankdir=TB; graph [bgcolor="white"]; node [shape=box, style="rounded,filled", fillcolor="#edf5ff", fontname="DejaVu Sans"]; edge [color="#49647c"];
+n0 [label="Receive grid, dimensions, station, output"];
+n1 [label="Valid station and cols > 0?"];
+n0 -> n1;
+n2 [label="If invalid: return false without modifying output"];
+n1 -> n2;
+n3 [label="Initialize sum; loop over days"];
+n2 -> n3;
+n4 [label="Add grid reading to sum"];
+n3 -> n4;
+n5 [label="Set average = sum / cols; return true"];
+n4 -> n5;
+}

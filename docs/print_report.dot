@@ -1,0 +1,16 @@
+digraph G {
+rankdir=TB; graph [bgcolor="white"]; node [shape=box, style="rounded,filled", fillcolor="#edf5ff", fontname="DejaVu Sans"]; edge [color="#49647c"];
+n0 [label="Receive stations, grid, dimensions"];
+n1 [label="Print report heading"];
+n0 -> n1;
+n2 [label="Loop through stations"];
+n1 -> n2;
+n3 [label="Compute station average; print row if valid"];
+n2 -> n3;
+n4 [label="Find hottest reading"];
+n3 -> n4;
+n5 [label="If found, print temperature, station and 1-based day"];
+n4 -> n5;
+n6 [label="Return"];
+n5 -> n6;
+}
