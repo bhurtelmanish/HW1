@@ -1,0 +1,192 @@
+Start testing: Oct 14 03:25 UTC
+----------------------------------------------------------
+1/7 Testing: GridIndex.FlatPositions
+1/7 Test: GridIndex.FlatPositions
+Command: "/home/ubuntu/HW1/build/hw1_tests" "--gtest_filter=GridIndex.FlatPositions" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HW1/build
+"GridIndex.FlatPositions" start time: Oct 14 03:25 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/HW1/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = GridIndex.FlatPositions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GridIndex
+[ RUN      ] GridIndex.FlatPositions
+[       OK ] GridIndex.FlatPositions (0 ms)
+[----------] 1 test from GridIndex (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"GridIndex.FlatPositions" end time: Oct 14 03:25 UTC
+"GridIndex.FlatPositions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/7 Testing: InBounds.BoundaryCases
+2/7 Test: InBounds.BoundaryCases
+Command: "/home/ubuntu/HW1/build/hw1_tests" "--gtest_filter=InBounds.BoundaryCases" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HW1/build
+"InBounds.BoundaryCases" start time: Oct 14 03:25 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/HW1/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = InBounds.BoundaryCases
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InBounds
+[ RUN      ] InBounds.BoundaryCases
+[       OK ] InBounds.BoundaryCases (0 ms)
+[----------] 1 test from InBounds (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"InBounds.BoundaryCases" end time: Oct 14 03:25 UTC
+"InBounds.BoundaryCases" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: StationAverage.ValidAndInvalid
+3/7 Test: StationAverage.ValidAndInvalid
+Command: "/home/ubuntu/HW1/build/hw1_tests" "--gtest_filter=StationAverage.ValidAndInvalid" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HW1/build
+"StationAverage.ValidAndInvalid" start time: Oct 14 03:25 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/HW1/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StationAverage.ValidAndInvalid
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StationAverage
+[ RUN      ] StationAverage.ValidAndInvalid
+[       OK ] StationAverage.ValidAndInvalid (0 ms)
+[----------] 1 test from StationAverage (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"StationAverage.ValidAndInvalid" end time: Oct 14 03:25 UTC
+"StationAverage.ValidAndInvalid" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: DayAverage.ValidAndInvalid
+4/7 Test: DayAverage.ValidAndInvalid
+Command: "/home/ubuntu/HW1/build/hw1_tests" "--gtest_filter=DayAverage.ValidAndInvalid" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HW1/build
+"DayAverage.ValidAndInvalid" start time: Oct 14 03:25 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/HW1/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DayAverage.ValidAndInvalid
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DayAverage
+[ RUN      ] DayAverage.ValidAndInvalid
+[       OK ] DayAverage.ValidAndInvalid (0 ms)
+[----------] 1 test from DayAverage (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"DayAverage.ValidAndInvalid" end time: Oct 14 03:25 UTC
+"DayAverage.ValidAndInvalid" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: FindHottest.MaximumTieAndEmpty
+5/7 Test: FindHottest.MaximumTieAndEmpty
+Command: "/home/ubuntu/HW1/build/hw1_tests" "--gtest_filter=FindHottest.MaximumTieAndEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HW1/build
+"FindHottest.MaximumTieAndEmpty" start time: Oct 14 03:25 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/HW1/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FindHottest.MaximumTieAndEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FindHottest
+[ RUN      ] FindHottest.MaximumTieAndEmpty
+[       OK ] FindHottest.MaximumTieAndEmpty (0 ms)
+[----------] 1 test from FindHottest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"FindHottest.MaximumTieAndEmpty" end time: Oct 14 03:25 UTC
+"FindHottest.MaximumTieAndEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: CountAbove.StrictAndEmpty
+6/7 Test: CountAbove.StrictAndEmpty
+Command: "/home/ubuntu/HW1/build/hw1_tests" "--gtest_filter=CountAbove.StrictAndEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HW1/build
+"CountAbove.StrictAndEmpty" start time: Oct 14 03:25 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/HW1/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CountAbove.StrictAndEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CountAbove
+[ RUN      ] CountAbove.StrictAndEmpty
+[       OK ] CountAbove.StrictAndEmpty (0 ms)
+[----------] 1 test from CountAbove (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"CountAbove.StrictAndEmpty" end time: Oct 14 03:25 UTC
+"CountAbove.StrictAndEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/7 Testing: FindStation.ExactMatchAndMissing
+7/7 Test: FindStation.ExactMatchAndMissing
+Command: "/home/ubuntu/HW1/build/hw1_tests" "--gtest_filter=FindStation.ExactMatchAndMissing" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/HW1/build
+"FindStation.ExactMatchAndMissing" start time: Oct 14 03:25 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/HW1/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FindStation.ExactMatchAndMissing
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FindStation
+[ RUN      ] FindStation.ExactMatchAndMissing
+[       OK ] FindStation.ExactMatchAndMissing (0 ms)
+[----------] 1 test from FindStation (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"FindStation.ExactMatchAndMissing" end time: Oct 14 03:25 UTC
+"FindStation.ExactMatchAndMissing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 14 03:25 UTC

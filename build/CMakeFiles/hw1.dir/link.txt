@@ -1,0 +1,1 @@
+/usr/bin/c++ -fsanitize=address,undefined CMakeFiles/hw1.dir/src/main.cpp.o -o hw1  libhw1_lib.a 

@@ -1,0 +1,8 @@
+GridIndex.FlatPositions 1 0.029233
+InBounds.BoundaryCases 1 0.0754708
+StationAverage.ValidAndInvalid 1 0.0805886
+DayAverage.ValidAndInvalid 1 0.0287648
+FindHottest.MaximumTieAndEmpty 1 0.084704
+CountAbove.StrictAndEmpty 1 0.0287423
+FindStation.ExactMatchAndMissing 1 0.0797048
+---

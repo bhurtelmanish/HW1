@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhw1_lib.a CMakeFiles/hw1_lib.dir/src/station.cpp.o CMakeFiles/hw1_lib.dir/src/grid.cpp.o CMakeFiles/hw1_lib.dir/src/analysis.cpp.o CMakeFiles/hw1_lib.dir/src/report.cpp.o
+/usr/bin/ranlib libhw1_lib.a

@@ -1,0 +1,5 @@
+if(EXISTS "/home/ubuntu/HW1/build/hw1_tests[1]_tests.cmake")
+  include("/home/ubuntu/HW1/build/hw1_tests[1]_tests.cmake")
+else()
+  add_test(hw1_tests_NOT_BUILT hw1_tests_NOT_BUILT)
+endif()
